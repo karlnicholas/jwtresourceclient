@@ -1,0 +1,12 @@
+spring:
+  main:
+    web-application-type: none
+  profiles:
+    include: 'security'
+logging:
+  level:
+    org:
+      springframework:
+        security: debug
+        web:
+          client: debug
